@@ -87,6 +87,10 @@ class Ui_MainWindow(object):
         self.label_17 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_17.setGeometry(QtCore.QRect(300, 670, 400, 30))
         self.label_17.setObjectName("label_17")
+        self.label_18 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label_18.setGeometry(QtCore.QRect(200, 90, 400, 30))
+        self.label_18.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_18.setObjectName("label_18")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
@@ -121,6 +125,7 @@ class Ui_MainWindow(object):
         self.label_15.setText(_translate("MainWindow", "<html><head/><body><p><br/></p></body></html>"))
         self.label_16.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt;\">Wind speed:</span></p></body></html>"))
         self.label_17.setText(_translate("MainWindow", "<html><head/><body><p><br/></p></body></html>"))
+        self.label_18.setText(_translate("MainWindow", "<html><head/><body><p><br/></p></body></html>"))
 
 
 if __name__ == "__main__":
