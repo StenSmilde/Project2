@@ -1,7 +1,10 @@
 from Logic import *
 
 
-def main():
+def main() -> None:
+    """
+    starts up the gui.
+    """
     application = QApplication([])
     window = Logic()
     window.show()
